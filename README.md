@@ -27,7 +27,7 @@ on node running 1.3.10 - [world-3]
 ...
 ```
 
-output http request:
+output http request:  
 (many of this)
 ```
 greeting       = Hello, world-{n}!
@@ -43,7 +43,7 @@ cd hello-akka-cluster-1.4.0
 sbt runAll
 ```
 
-Wait for nodes to form a cluster. First node had about 100 entities in memory, but entities will be distributed over the two nodes. 
+Wait for nodes to form a cluster. First node had about 100 entities in memory, but now the entities will be distributed over the two nodes. 
 
 Run script on node 1.4.0-M3 (port 9001)
 
@@ -51,7 +51,7 @@ Run script on node 1.4.0-M3 (port 9001)
   ./say-hello.sh 9001
 ```
 
-Console output must be distributed. Some entities will stay in 1.3.10, other will have moved to 1.4.0-M3
+Console output must be distributed. Some entities will stay in 1.3.10, others will have moved to 1.4.0-M3
 
  Http output will be:
  ```
