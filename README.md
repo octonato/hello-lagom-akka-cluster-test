@@ -39,7 +39,7 @@ version        = 1.3.10
 ### Start second node using 1.4.0-M3
 
 ```
-cd hello-akka-cluster-1.3.10
+cd hello-akka-cluster-1.4.0
 sbt runAll
 ```
 
